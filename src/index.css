@@ -184,12 +184,12 @@ margin-left: 5px;
 @media (max-width:409px){
 max-width: 265px;
 font-size: 12px;
-margin-left: -10px;
+margin-left: -200px;
 };
 @media (max-width:319px){
 margin: 30px auto ;
 max-width: 190px;
-margin-left: -12px;
+margin-left: -15px;
 font-size: 10px;
 gap: 1rem;}
 
@@ -210,6 +210,7 @@ margin-bottom: -15px;
 margin-bottom: 15px;
 @media (max-width:319px){
 font-size: 12px;
+
 };
     
 }
@@ -239,7 +240,7 @@ margin-left:8px;
 
 .filterconteudo h4{
 margin-bottom: 14px;
-margin-left: 5px;
+margin-left: 2px;
 }
 .filterconteudo button{
 display: flex;
