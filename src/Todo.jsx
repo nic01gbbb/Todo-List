@@ -19,8 +19,10 @@ criartarefas(titulo,cate)
 <select value={cate} onChange={(e)=>setcate(e.target.value)} className='select' >
 <option>Selecione uma categoria</option>
 <option value="Educação">Educação</option>
-<option value="profissional">Profissional</option>
-<option value="saude">Saude</option>
+<option value="profissional">Profissão</option>
+<option value="saude">Saúde</option>
+<option value="saude">Pessoal</option>
+
 </select>
 <button onClick={crieitarefas} className='buttondecriar' >Criar Tarefas</button>
 
