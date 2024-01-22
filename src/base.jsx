@@ -33,7 +33,7 @@ crescente==="Asc"?a.text.localeCompare(b.text):b.text.localeCompare(a.text)
 
 ))
 
-.map((tarefa,posi)=>(
+.map((tarefa)=>(
 
 <div style={{
 textDecoration:tarefa.sentence?"line-through":"none",
@@ -41,7 +41,6 @@ background:tarefa.sentence?"blue":"white"}}
 className="todo-conteudo">
 <div className="conteudo">
 <h4>
-{posi}-
 {tarefa.text}</h4>
 <p>({tarefa.categoria})</p>
 </div>

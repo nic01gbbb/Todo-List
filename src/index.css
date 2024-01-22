@@ -45,10 +45,6 @@ text-align: center;
 @media (max-width:319px){
 font-size: 20px;
 };
-    
-
-
-
 }
 .todo-conteudo{
 display: flex;
@@ -59,26 +55,36 @@ padding: 20px;
 background-color: white;
 border-radius: 5px;
 box-shadow: 1px 4px 10px rgba(0,0,0,0.8);
-@media (max-width:409px){
-max-height: 50px;
-font-size: 15px;
-};
-@media (max-width:319px){
-font-size: 12px;
-gap: 1rem;
-
-};
+gap: 10px;
 
 }
 .todo-conteudo p{
 @media (max-width:409px){
 margin-top: 3px;
+
 };
+}
+
+.conteudo{
+word-wrap: break-word;
+word-break: break-all;
+
+
+@media(max-width:409px){
+word-wrap: break-word;
+word-break: break-all;
+}
+
+@media(max-width:319px){
+word-wrap: break-word;
+word-break: break-all;
+}
 
 }
 
+
 .buttons button {
-padding: 5px 15px;
+padding: 5px ;
 border-radius: 5px;
 border: 0;
 margin-right: 10px;
